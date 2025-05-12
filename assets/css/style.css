@@ -60,6 +60,18 @@
   border: none;
 }
 
+.contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact {
+  padding: 10px 20px;
+  display: flex; 
+  gap: 20px;
+  border-bottom: 1px solid gray;
+}
+
 .principal {
   width: 80%;
   min-height: 100vh;
