@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 .container{
@@ -44,6 +45,21 @@
   align-items: center;
 }
 
+.new-chat {
+  display: flex;
+  padding: 20px 10px;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid gray;
+}
+
+.new-chat button {
+  background-color: #A491D2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+}
+
 .principal {
   width: 80%;
   min-height: 100vh;
@@ -58,3 +74,4 @@
   flex-direction: column;
   text-align: center;
 }
+
