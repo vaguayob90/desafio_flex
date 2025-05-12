@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  width: 100%; 
+}
+
+.chats {
+  background-color: blue;
+  width: 20%;
+  min-height: 100vh;
+}
+
+.principal {
+  width: 80%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slogan {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
