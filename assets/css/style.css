@@ -25,6 +25,7 @@
 
 .user-info {
   display: flex;
+  align-items: center;
   gap: 20px;
 }
 
@@ -39,10 +40,16 @@
   flex-direction: column;
 }
 
+.user-detail p {
+  color: #BEC1BB;
+  font-size: 10px;
+}
+
 .user-icons {
   display: flex;
   gap: 20px;
   align-items: center;
+  color: #BEC1BB;
 }
 
 .new-chat {
@@ -70,6 +77,11 @@
   display: flex;
   gap: 20px;
   border-bottom: 1px solid gray;
+  align-items: center;
+}
+
+.contact p {
+  font-size: 10px;
 }
 
 .principal {
@@ -81,8 +93,25 @@
 }
 
 .slogan {
-  max-width: 400px;
+  max-width: 700px;
   display: flex;
   flex-direction: column;
   text-align: center;
+  align-items: center;
+}
+
+.slogan img {
+  max-width: 250px;
+  margin-bottom: 20px;
+}
+
+.slogan h1 {
+  font-size: 46px;
+  font-weight: normal;
+}
+
+.slogan p {
+  font-size: 12px;
+  max-width: 400px;
+  margin-top: 10px;
 }
