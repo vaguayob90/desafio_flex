@@ -5,9 +5,9 @@
   font-family: "Roboto", sans-serif;
 }
 
-.container{
+.container {
   display: flex;
-  width: 100%; 
+  width: 100%;
 }
 
 .chats {
@@ -25,7 +25,7 @@
 
 .user-info {
   display: flex;
-  gap: 20px
+  gap: 20px;
 }
 
 .avatar {
@@ -54,7 +54,7 @@
 }
 
 .new-chat button {
-  background-color: #A491D2;
+  background-color: #a491d2;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -67,7 +67,7 @@
 
 .contact {
   padding: 10px 20px;
-  display: flex; 
+  display: flex;
   gap: 20px;
   border-bottom: 1px solid gray;
 }
@@ -86,4 +86,3 @@
   flex-direction: column;
   text-align: center;
 }
-
